@@ -1,24 +1,24 @@
 #include "abcdkb.dtsi"
 
 &kscan0 {
-    input-gpios = <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,   // Key 1: 006 → P0.06
-                  <&gpio0 31 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,  // Key 2: 031 → P0.31
-                  <&gpio1 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,   // Key 3: 101 → P1.01
-                  <&gpio0 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,  // Key 4: 029 → P0.29
-                  <&gpio1 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,   // Key 5: 102 → P1.02
-                  <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,   // Key 6: 002 → P0.02
-                  <&gpio0 22 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,  // Key 7: 022 → P0.22
-                  <&gpio1 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,  // Key 8: 115 → P1.15
-                  <&gpio0 24 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,  // Key 9: 024 → P0.24
-                  <&gpio1 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,  // Key 10: 113 → P1.13
-                  <&gpio1 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,   // Key 11: 100 → P1.00
-                  <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,  // Key 12: 111 → P1.11
-                  <&gpio0 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,  // Key 13: 011 → P0.11
-                  <&gpio0 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,  // Key 14: 010 → P0.10
-                  <&gpio0 9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,   // Key 15: 009 → P0.09
-                  <&gpio1 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,   // Key 16: 104 → P1.04
-                  <&gpio1 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,   // Key 17: 106 → P1.06
-                  <&gpio1 7 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;   // Key 18: 107 → P1.07
+    input-gpios = <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,   // Key 1 
+                  <&gpio0 31 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,  // Key 2
+                  <&gpio1 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,   // Key 3
+                  <&gpio0 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,  // Key 4
+                  <&gpio1 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,   // Key 5
+                  <&gpio0 2 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,   // Key 6
+                  <&gpio0 22 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,  // Key 7
+                  <&gpio1 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,  // Key 8
+                  <&gpio0 24 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,  // Key 9
+                  <&gpio1 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,  // Key 10
+                  <&gpio1 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,   // Key 11
+                  <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,  // Key 12
+                  <&gpio0 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,  // Key 13
+                  <&gpio0 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,  // Key 14
+                  <&gpio0 9 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,   // Key 15
+                  <&gpio1 4 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,   // Key 16
+                  <&gpio1 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,   // Key 17
+                  <&gpio1 7 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;   // Key 18
 };
 
 &default_transform {
