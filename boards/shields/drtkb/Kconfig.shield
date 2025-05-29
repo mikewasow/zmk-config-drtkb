@@ -1,7 +1,5 @@
-# No whitespace after the comma or in your part name!
 config SHIELD_DRTKB_LEFT
     def_bool $(shields_list_contains,drtkb_left)
 
-# No whitespace after the comma or in your part name!
 config SHIELD_DRTKB_RIGHT
     def_bool $(shields_list_contains,drtkb_right)
