@@ -1,0 +1,14 @@
+file_format: "1"
+id: drtkb
+name: drtkb
+type: shield
+url: https://github.com/mikewasow/zmk-config-drtkb
+features:
+  - keys
+  - studio
+outputs:
+  - usb
+  - ble
+siblings:
+  - drtkb_left
+  - drtkb_right
