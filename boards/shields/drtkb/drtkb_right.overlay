@@ -1,4 +1,4 @@
-#include "abcdkb.dtsi"
+#include "drtkb.dtsi"
 
 &kscan0 {
     input-gpios = <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,   // Key 1 
