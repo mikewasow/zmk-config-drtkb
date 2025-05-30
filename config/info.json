@@ -1,6 +1,8 @@
 {
+  "id": "keymap",
+  "name": "keymap",
   "layouts": {
-    "default_transform": {
+    "LAYOUT": {
       "layout": [
         { "x": 0.0, "y": 0.38 },
         { "x": 1.0, "y": 0.12 },
@@ -40,5 +42,6 @@
         { "x": 9.52, "y": 3.12 }
       ]
     }
-  }
+  },
+  "sensors": []
 }
