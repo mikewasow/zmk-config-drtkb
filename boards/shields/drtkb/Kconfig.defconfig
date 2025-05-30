@@ -3,7 +3,6 @@ if SHIELD_DRTKB_LEFT
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
     default "drtkb"
-
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
