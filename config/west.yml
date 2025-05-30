@@ -10,7 +10,7 @@ manifest:
       revision: main
       import: app/west.yml
     - name: zmk-helpers
-      url: https://github.com/urob/zmk-helpers
+      remote: urob
       revision: main
   self:
     path: config
