@@ -16,6 +16,16 @@
             bindings = <&to 0>;
             key-positions = <31 34>;
         };
+
+        copy {
+            bindings = <&ctrl_c>;
+            key-positions = <10 11 12 13>;
+        };
+
+        paste {
+            bindings = <&ctrl_v>;
+            key-positions = <11 12 13 14>;
+        };
     };
 
     macros {
@@ -33,7 +43,7 @@
             bindings = <&kp LC(C)>;
             label = "CTRL+C";
         };
-    
+
         ctrl_v: ctrl_v {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
