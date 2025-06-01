@@ -24,6 +24,7 @@
             #binding-cells = <0>;
             bindings = <&kp T &kp H &kp E &kp SPACE>;
             label = "THE_STRING";
+            tap-ms = <50>;
         };
     };
 
