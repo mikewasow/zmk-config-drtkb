@@ -26,6 +26,20 @@
             label = "THE_STRING";
             tap-ms = <30>;
         };
+
+        ctrl_c: ctrl_c {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(C)>;
+            label = "CTRL+C";
+        };
+    
+        ctrl_v: ctrl_v {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(V)>;
+            label = "CTRL+V";
+        };
     };
 
     keymap {
