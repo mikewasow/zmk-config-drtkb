@@ -19,11 +19,11 @@
     };
 
     macros {
-        the: the {
+        the_string: the_string {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp T &kp H &kp E &kp SPACE>;
-            label = "THE";
+            label = "THE_STRING";
         };
     };
 
@@ -40,7 +40,7 @@
             //                     |   ESC   |  SPACE  |   DEL   |                      |  BSPC   |  SPACE  | RETURN  |
 
             bindings = <
-&kp B  &kp L  &kp D  &kp W  &kp Z  &kp SQT  &kp F  &kp O  &kp U  &kp J  &kp N  &kp R  &kp T  &kp S  &kp G  &kp Y  &kp H  &kp A  &kp E  &kp I  &kp Q  &kp X  &kp M  &kp C  &kp V  &kp K  &kp P  &kp DOT  &kp MINUS  &kp FSLH  &kp ESC  &kp SPACE  &the  &kp RET  &kp BSPC  &kp DEL
+&kp B  &kp L  &kp D  &kp W  &kp Z  &kp SQT  &kp F  &kp O  &kp U  &kp J  &kp N  &kp R  &kp T  &kp S  &kp G  &kp Y  &kp H  &kp A  &kp E  &kp I  &kp Q  &kp X  &kp M  &kp C  &kp V  &kp K  &kp P  &kp DOT  &kp MINUS  &kp FSLH  &kp ESC  &kp SPACE  &the_string  &kp RET  &kp BSPC  &kp DEL
             >;
         };
 
